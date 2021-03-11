@@ -36,7 +36,7 @@ function buscar($op,$busqueda){
         }
     } 
     else {
-    return "0 resultados";}
+    return null;}
  
 }
 
