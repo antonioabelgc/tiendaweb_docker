@@ -23,6 +23,7 @@ services:
         volumes:
             - ./dump:/docker-entrypoint-initdb.d
             - ./conf:/etc/mysql/conf.d
+            - ./html:/home
             - persistent:/var/lib/mysql
         networks:
             - default
