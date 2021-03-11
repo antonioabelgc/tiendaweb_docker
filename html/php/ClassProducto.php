@@ -38,7 +38,7 @@ class ClassProducto
                 echo "<br> Codigo: ". $row["cod"]. " - Descipcion: ". $row["descripcion"]. " - Precio " . $row["precio"] . " - Stock " . $row["stock"] . "<br>";
             }
         } else {
-            return "0 resultado";
+            return null;
 
         }
     }
