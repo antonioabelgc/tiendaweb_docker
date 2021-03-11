@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+      <link href="css/buscarClientes.css" rel="stylesheet" type="text/css">	 
+		<title>Tienda Web V2.0</title>
+	</head>
+	
+	<body>
+            <h1 align="center"><strong>Tienda Web V2.0</strong></h1>
+			
+			<h2><strong>Buscar cliente</strong></h2>
+			
+			<form action="php/buscarClientes.php" method="post">
+			
+				 <label for="opcion">tipo de busqueda</label>
+				 
+                            <select id="opcion" name="tipo">
+                                    <option value="nom" name="nom">Por Nombre</option>
+                                    <option value="apell" name="apell">Por Apellidos</option>
+                                    <option value="DNI" name="DNI">Por Dni</option>
+									<option value="email" name="email">Por email</option>
+                            </select>
+							
+				</br></br>
+				
+				 Busqueda: <input type="text" id="busqueda" name="busqueda" required> </br></br>
+
+				 <input type="submit" id="envio" value="enviar" > 
+				 
+			</form>
+			
+			</br> </br> </br>
+			
+		   <a href="index.html" class="enlaceboton">Volver a la pagina principal</a><br>
+
+	</body>
+</html>

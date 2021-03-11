@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+      <link href="css/buscar.css" rel="stylesheet" type="text/css">	 
+		<title>Tienda Web V2.0</title>
+	</head>
+	
+	<body>
+            <h1 align="center"><strong>Tienda Web V2.0</strong></h1>
+			
+			<h2><strong>Buscar producto</strong></h2>
+			
+			<form action="php/buscarProductos.php" method="GET">
+			
+				 <label for="opcion">tipo de busqueda</label>
+				 
+                            <select id="opcion" name="opcion">
+                                    <option value="ocod" name="ocod">Por codigo</option>
+                                    <option value="odesc" name="odesc">Por descripcion</option>
+									<option value="opre" name="opre">Por precio</option>
+                            </select>
+							
+				</br></br>
+				
+				<label for="fbus"> Busqueda: </label><input type="text" id="ftext" name="ftext"> </br></br>
+
+				 <input type="submit" id="envio" value="enviar"> 
+				 
+			</form>
+			
+			</br> </br> 
+			
+		   <a href="index.html" class="enlaceboton">Volver a la pagina principal</a><br>
+
+	</body>
+</html>

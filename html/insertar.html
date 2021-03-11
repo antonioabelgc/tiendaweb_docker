@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<link href="css/insertar.css" rel="stylesheet" type="text/css">
+    
+    <head>
+        
+		<title>Tienda Web V2.0</title>
+	</head>
+	
+	<body>
+            <h1 align="center"><strong>Tienda Web V2.0</strong></h1></br>
+			
+			<h2><strong>A&ntilde;adir un nuevo producto</strong></h2>
+			<form action="php/insertarProductos.php" method="GET">
+			<label for="fcod">	codido del producto: </label><input type="number"  name="fcod" ></br></br>
+			<label for="fdesc">	Descripcion :</label> <input type="text" name="fdesc"></br></br>
+			<label for="fprecio"> Precio : </label><input type="number" step="any" name="fprecio"><br></br>
+			<label for="fstock"> Stock : </label><input type="number" name="fstock"><br></br>
+					</br>
+				<input type="submit" id="envio" value="enviar"> 	
+				<input type="reset" value="borrar" name="btborrar"  id="envio">
+
+			</form>
+			</br></br>
+			<a href="index.html" class="enlaceboton">Volver a la pagina principal</a><br>
+	</body>
+</html>
